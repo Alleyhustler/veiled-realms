@@ -11,7 +11,7 @@ function closePasswordModal() {
 // Function to check the password
 function checkPassword() {
     const passwordInput = document.getElementById("passwordInput").value;
-    const correctPassword = "$Veiled"; // Set your password here
+    const correctPassword = "veiled"; // Set your password here
     const errorMessage = document.getElementById("errorMessage");
 
     if (passwordInput === correctPassword) {
